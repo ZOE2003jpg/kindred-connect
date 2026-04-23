@@ -4,35 +4,35 @@ import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
-import cedarcareReception from "@/assets/cedarcare-reception.jpg";
-import cedarcareLabTechnician from "@/assets/cedarcare-lab-technician.jpg";
-import cedarcareMicroscopy from "@/assets/cedarcare-microscopy.jpg";
-import cedarcareWard from "@/assets/cedarcare-ward.jpg";
-import cedarcarePharmacy from "@/assets/cedarcare-pharmacy.jpg";
+import CedarcareReception from "@/assets/cedarcare-reception.jpg";
+import CedarcareLabTechnician from "@/assets/cedarcare-lab-technician.jpg";
+import CedarcareMicroscopy from "@/assets/cedarcare-microscopy.jpg";
+import CedarcareWard from "@/assets/cedarcare-ward.jpg";
+import CedarcarePharmacy from "@/assets/cedarcare-pharmacy.jpg";
 
 const slides = [
   {
-    image: cedarcareReception,
-    headline: "Welcome to cedarcare Hospital",
+    image: CedarcareReception,
+    headline: "Welcome to Cedarcare Hospital",
     subtitle: "Where professional care meets warm hospitality"
   },
   {
-    image: cedarcareLabTechnician,
+    image: CedarcareLabTechnician,
     headline: "Advanced Laboratory Services",
     subtitle: "Precision testing with cutting-edge technology"
   },
   {
-    image: cedarcareMicroscopy,
+    image: CedarcareMicroscopy,
     headline: "Expert Medical Analysis",
     subtitle: "Detailed diagnostics for accurate treatment plans"
   },
   {
-    image: cedarcareWard,
-    headline: "Compassionate Inpatient Care",
+    image: CedarcareWard,
+    headline: "Compassionate Patient Care",
     subtitle: "Round-the-clock nursing and medical attention"
   },
   {
-    image: cedarcarePharmacy,
+    image: CedarcarePharmacy,
     headline: "Quality Pharmacy Services",
     subtitle: "Safe medication dispensing with professional guidance"
   }
@@ -209,13 +209,15 @@ const HeroSection = () => {
       {/* Desktop Carousel Navigation */}
       <button
         onClick={prevSlide}
-        className="hidden md:flex absolute left-8 top-1/2 -translate-y-1/2 z-20 w-12 h-12 rounded-full bg-primary/30 backdrop-blur-sm border border-white/20 items-center justify-center text-white hover:bg-primary/50 transition-colors"
+        aria-label="Previous slide"
+        className="hidden md:flex absolute left-8 bottom-48 z-20 w-12 h-12 rounded-full bg-primary/30 backdrop-blur-sm border border-white/20 items-center justify-center text-white hover:bg-primary/50 transition-colors"
       >
         <ChevronLeft className="w-6 h-6" />
       </button>
       <button
         onClick={nextSlide}
-        className="hidden md:flex absolute right-8 top-1/2 -translate-y-1/2 z-20 w-12 h-12 rounded-full bg-primary/30 backdrop-blur-sm border border-white/20 items-center justify-center text-white hover:bg-primary/50 transition-colors"
+        aria-label="Next slide"
+        className="hidden md:flex absolute right-8 bottom-48 z-20 w-12 h-12 rounded-full bg-primary/30 backdrop-blur-sm border border-white/20 items-center justify-center text-white hover:bg-primary/50 transition-colors"
       >
         <ChevronRight className="w-6 h-6" />
       </button>
@@ -280,7 +282,7 @@ const HeroSection = () => {
             transition={{ delay: 0.5 }}
             className="text-lg lg:text-xl text-white/70 mb-10 max-w-2xl leading-relaxed"
           >
-            cedarcare Hospital is a modern healthcare facility committed to providing safe, reliable, 
+            Cedarcare Hospital is a modern healthcare facility committed to providing safe, reliable, 
             and compassionate medical services. We combine clinical excellence with advanced technology.
           </motion.p>
 

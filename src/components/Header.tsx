@@ -56,7 +56,7 @@ const Header = () => {
               >
                 <img
                   src={logo}
-                  alt="cedarcare Hospital"
+                  alt="Cedarcare Hospital"
                   className={`h-10 md:h-12 w-auto transition-all duration-500 ${
                     isScrolled
                       ? ""

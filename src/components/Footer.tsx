@@ -62,7 +62,7 @@ const Footer = () => {
             >
               <img 
                 src={logo} 
-                alt="cedarcare Hospital" 
+                alt="Cedarcare Hospital" 
                 className="h-14 w-auto drop-shadow-[0_0_10px_rgba(255,255,255,0.6)]"
               />
             </motion.a>
@@ -73,9 +73,9 @@ const Footer = () => {
 
             {/* Contact info */}
             <div className="space-y-3">
-              <a href="mailto:info@cedarcare.com" className="flex items-center space-x-3 text-white/60 hover:text-[hsl(217,91%,70%)] transition-colors">
+              <a href="mailto:info@cedarcaregroup.com" className="flex items-center space-x-3 text-white/60 hover:text-[hsl(217,91%,70%)] transition-colors">
                 <Mail className="w-4 h-4" />
-                <span>info@cedarcare.com</span>
+                <span>info@cedarcaregroup.com</span>
               </a>
               <a href="tel:+2347062641810" className="flex items-center space-x-3 text-white/60 hover:text-[hsl(217,91%,70%)] transition-colors">
                 <Phone className="w-4 h-4" />
@@ -149,7 +149,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           {/* Copyright */}
           <p className="text-white/50 text-sm">
-            © {new Date().getFullYear()} cedarcare Group. All rights reserved.
+            © {new Date().getFullYear()} Cedarcare Group. All rights reserved.
           </p>
 
           {/* Social links */}

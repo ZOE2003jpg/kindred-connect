@@ -31,8 +31,8 @@ const reasons = [
 
 const services = [
   { icon: Stethoscope, title: "General & Family Medicine", color: "hsl(217,91%,60%)" },
-  { icon: Baby, title: "Pediatrics", color: "hsl(210,50%,45%)" },
-  { icon: Heart, title: "Obstetrics & Gynecology", color: "hsl(340,60%,50%)" },
+  { icon: Baby, title: "Paediatrics", color: "hsl(210,50%,45%)" },
+  { icon: Heart, title: "Obstetrics & Gynaecology", color: "hsl(340,60%,50%)" },
   { icon: FlaskConical, title: "Diagnostics & Laboratory", color: "hsl(40,70%,50%)" },
   { icon: Pill, title: "Pharmacy Services", color: "hsl(217,91%,60%)" },
   { icon: Ambulance, title: "Emergency Care", color: "hsl(0,70%,50%)" },
@@ -56,14 +56,14 @@ const WhyChooseUsSection = () => {
           className="text-center max-w-3xl mx-auto mb-16"
         >
           <div className="inline-flex items-center space-x-2 px-4 py-2 rounded-full bg-primary/5 border border-primary/10 mb-6">
-            <span className="text-sm text-primary font-medium">Why Choose cedarcare</span>
+            <span className="text-sm text-primary font-medium">Why Choose Cedarcare</span>
           </div>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
             Excellence in Every Aspect of{" "}
             <span className="text-[hsl(217,91%,60%)]">Healthcare</span>
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            At cedarcare Hospital, we deliver high-quality, patient-centered healthcare 
+            At Cedarcare Hospital, we deliver high-quality, patient-centered healthcare 
             with professionalism, compassion, and faith-driven values.
           </p>
         </motion.div>

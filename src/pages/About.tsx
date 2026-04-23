@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Heart, Award, Shield, Users, Star, Zap, Eye, Target } from "lucide-react";
+import { Heart, Award, Shield, Users, Sparkles, CheckCircle2, Eye, Target } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import PageTransition from "@/components/PageTransition";
@@ -8,12 +8,12 @@ import doctorPatientNew from "@/assets/doctor-patient-new.jpg";
 import hospitalBuilding from "@/assets/hospital-building.jpg";
 
 const coreValues = [
-  { icon: Shield, title: "TRUSTED", description: "We are professional and responsible for our actions. We can be trusted to give the best care using the latest technologies." },
-  { icon: Users, title: "WORKING TOGETHER", description: "We work together as a team to make a difference in our patients and local communities. We find creative ways to run efficiently and provide high quality service to our patients." },
-  { icon: Heart, title: "COMPASSIONATE", description: "We put our patients at the heart of everything we do. We are positive, kind, patient, tolerant and polite. We understand diversity and we are respectful. We have empathy for all our patients." },
-  { icon: Star, title: "ASPIRATIONAL", description: "We feel empowered and we empower our patients to demand the best care. We think creatively and we aspire to be the best healthcare provider." },
-  { icon: Zap, title: "RESPONSIVE", description: "We listen, we act, and we communicate clearly. We do what we say we will do. We take account of the opinions of others. We are open and transparent about our patient care." },
-  { icon: Award, title: "EXCELLENT", description: "We strive to deliver the best care we can. We have a culture of excellence in our teams. We challenge complacency, we listen and learn to continually improve our knowledge and skills to deliver an excellent service." },
+  { icon: Shield, title: "TRUST", description: "We are professional and responsible for our actions. We can be trusted to give the best care using the latest technologies." },
+  { icon: Users, title: "TEAM WORK", description: "We work together as a team to make a difference in the lives of our patients and local communities. We find creative ways to run efficient and high quality service to our patients." },
+  { icon: Heart, title: "COMPASSION", description: "We put our patients at the heart of everything we do. We are positive, kind, patient, tolerant and polite. We understand diversity and we are respectful. We have empathy for all our patients." },
+  { icon: Sparkles, title: "EMPOWERMENT", description: "We feel empowered and we empower our patients to demand the best care from us. We think creatively and we aspire to be the best healthcare provider." },
+  { icon: CheckCircle2, title: "ACCOUNTABLE", description: "We listen, we act and we communicate clearly. We do what we say we will do. We take account of the opinions of others. We are ethical and interact transparently with our patient." },
+  { icon: Award, title: "EXCELLENCE", description: "We strive to deliver the best care attainable. We have a culture of excellence in our teams. We challenge complacency, we listen and learn to continually improve our knowledge and skills to deliver an excellent service." },
 ];
 
 const About = () => {
@@ -27,7 +27,7 @@ const About = () => {
           <div className="absolute inset-0">
             <img
               src={hospitalBuilding}
-              alt="cedarcare Hospital"
+              alt="Cedarcare Hospital"
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-[hsl(210,50%,10%)]/95 via-[hsl(210,50%,10%)]/80 to-[hsl(210,50%,10%)]/60" />
@@ -41,7 +41,7 @@ const About = () => {
               className="max-w-3xl"
             >
               <div className="inline-flex items-center space-x-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 mb-6">
-                <span className="text-sm text-white/90 font-medium">About cedarcare Hospital</span>
+                <span className="text-sm text-white/90 font-medium">About Cedarcare Hospital</span>
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
                 Who We <span className="text-[hsl(217,91%,60%)]">Are</span>
@@ -94,11 +94,11 @@ const About = () => {
                 transition={{ duration: 0.8 }}
               >
                 <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6 leading-tight">
-                  About cedarcare Hospital
+                  About Cedarcare Hospital
                 </h2>
 
                 <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                  cedarcare Hospital is a patient-focused healthcare provider committed to delivering accessible, 
+                  Cedarcare Hospital is a patient-focused healthcare provider committed to delivering accessible, 
                   ethical, and high-quality medical services. We believe healthcare should be compassionate, 
                   professional, and rooted in integrity.
                 </p>
@@ -117,7 +117,7 @@ const About = () => {
                     <h3 className="text-xl font-semibold text-foreground">Our Vision</h3>
                   </div>
                   <p className="text-muted-foreground">
-                    Our vision is to deliver high quality services by working in partnership with our local community, creating a dynamic system of care so people receive the right help at the right time in the right setting with the right outcome.
+                    Our vision is to deliver high quality services by working in partnership with our local community.
                   </p>
                 </div>
 
@@ -154,7 +154,7 @@ const About = () => {
                 Our Core Values
               </h2>
               <p className="text-muted-foreground max-w-2xl mx-auto">
-                The principles that guide everything we do at cedarcare Hospital
+                The principles that guide everything we do at Cedarcare Hospital
               </p>
             </motion.div>
 
