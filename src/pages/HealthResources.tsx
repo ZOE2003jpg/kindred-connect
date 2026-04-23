@@ -3,7 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import PageTransition from "@/components/PageTransition";
 import { Heart, Activity, Baby, Shield, Stethoscope } from "lucide-react";
-import CedarcareWard from "@/assets/Cedarcare-ward.jpg";
+import CedarcareWard from "@/assets/cedarcare-ward.jpg";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 

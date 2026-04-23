@@ -4,11 +4,11 @@ import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
-import CedarcareReception from "@/assets/Cedarcare-reception.jpg";
-import CedarcareLabTechnician from "@/assets/Cedarcare-lab-technician.jpg";
-import CedarcareMicroscopy from "@/assets/Cedarcare-microscopy.jpg";
-import CedarcareWard from "@/assets/Cedarcare-ward.jpg";
-import CedarcarePharmacy from "@/assets/Cedarcare-pharmacy.jpg";
+import CedarcareReception from "@/assets/cedarcare-reception.jpg";
+import CedarcareLabTechnician from "@/assets/cedarcare-lab-technician.jpg";
+import CedarcareMicroscopy from "@/assets/cedarcare-microscopy.jpg";
+import CedarcareWard from "@/assets/cedarcare-ward.jpg";
+import CedarcarePharmacy from "@/assets/cedarcare-pharmacy.jpg";
 
 const slides = [
   {

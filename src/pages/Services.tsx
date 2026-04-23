@@ -6,10 +6,10 @@ import PageTransition from "@/components/PageTransition";
 
 import doctorPatientNew from "@/assets/doctor-patient-new.jpg";
 import hospitalBuilding from "@/assets/hospital-building.jpg";
-import CedarcarePharmacy from "@/assets/Cedarcare-pharmacy.jpg";
-import CedarcareWard from "@/assets/Cedarcare-ward.jpg";
-import CedarcareLabTechnician from "@/assets/Cedarcare-lab-technician.jpg";
-import CedarcareMicroscopy from "@/assets/Cedarcare-microscopy.jpg";
+import CedarcarePharmacy from "@/assets/cedarcare-pharmacy.jpg";
+import CedarcareWard from "@/assets/cedarcare-ward.jpg";
+import CedarcareLabTechnician from "@/assets/cedarcare-lab-technician.jpg";
+import CedarcareMicroscopy from "@/assets/cedarcare-microscopy.jpg";
 
 const services = [
   {

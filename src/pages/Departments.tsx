@@ -5,7 +5,7 @@ import PageTransition from "@/components/PageTransition";
 import { Stethoscope, Heart, Pill, Building2, Shield, ArrowRight, Phone, Mail, Play } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import CedarcareLabTechnician from "@/assets/Cedarcare-lab-technician.jpg";
+import CedarcareLabTechnician from "@/assets/cedarcare-lab-technician.jpg";
 
 const departments = [
   {

@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Search, Phone, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link, useLocation } from "react-router-dom";
-import logo from "@/assets/Cedarcare-logo.png";
+import logo from "@/assets/cedarcare-logo.png";
 
 const navItems = [
   { name: "Home", href: "/" },

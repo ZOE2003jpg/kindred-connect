@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 import { motion } from "framer-motion";
 import { Calendar, User, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import CedarcarePharmacy from "@/assets/Cedarcare-pharmacy.jpg";
+import CedarcarePharmacy from "@/assets/cedarcare-pharmacy.jpg";
 
 const blogPosts = [
   {
