@@ -2,11 +2,8 @@ import { motion } from "framer-motion";
 import Header from "@/components/Header";
 import PageTransition from "@/components/PageTransition";
 import Footer from "@/components/Footer";
-import { Users, Award, Heart, BookOpen, Send, ExternalLink } from "lucide-react";
+import { Users, Award, Heart, BookOpen, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { Label } from "@/components/ui/label";
 import CedarcareReception from "@/assets/cedarcare-reception.jpg";
 
 const whyWorkWithUs = [
@@ -102,74 +99,35 @@ const Careers = () => {
         </div>
       </section>
 
-      {/* No Current Openings + General Application */}
+      {/* No Current Openings */}
       <section className="py-20 bg-secondary">
         <div className="container mx-auto px-4 md:px-8">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <motion.div
-              initial={{ opacity: 0, x: -30 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="max-w-3xl mx-auto text-center"
+          >
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
+              No Current Openings
+            </h2>
+            <p className="text-muted-foreground leading-relaxed mb-6">
+              We do not currently have any open vacancies or internship positions. However, we are always interested in hearing from talented and passionate healthcare professionals.
+            </p>
+            <p className="text-muted-foreground leading-relaxed mb-8">
+              If you would like to be considered for future opportunities, please apply directly through our HR portal.
+            </p>
+            <a
+              href="https://apply.bizedgeapp.com/Cedarcare-hospital/175469876032/315"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-                No Current Openings
-               </h2>
-               <p className="text-muted-foreground leading-relaxed mb-6">
-                 We do not currently have any open vacancies or internship positions. However, we are always interested in hearing from talented and passionate healthcare professionals.
-               </p>
-               <p className="text-muted-foreground leading-relaxed mb-8">
-                 If you would like to be considered for future opportunities, please submit your details using the form or apply directly through our HR portal.
-               </p>
-               <a
-                 href="https://apply.bizedgeapp.com/Cedarcare-hospital/175469876032/315"
-                 target="_blank"
-                 rel="noopener noreferrer"
-               >
-                 <Button className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-8 py-6 text-lg">
-                   <ExternalLink className="w-5 h-5 mr-2" />
-                   Apply via HR Portal
-                 </Button>
-               </a>
-            </motion.div>
-
-            {/* General Application Form */}
-            <motion.div
-              initial={{ opacity: 0, x: 30 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              className="bg-white rounded-3xl p-8 shadow-xl"
-            >
-              <h3 className="text-2xl font-bold text-foreground mb-6">Express Interest</h3>
-              <form className="space-y-4">
-                <div className="grid md:grid-cols-2 gap-4">
-                  <div>
-                    <Label htmlFor="firstName">First Name</Label>
-                    <Input id="firstName" placeholder="Enter first name" className="mt-1" />
-                  </div>
-                  <div>
-                    <Label htmlFor="lastName">Last Name</Label>
-                    <Input id="lastName" placeholder="Enter last name" className="mt-1" />
-                  </div>
-                </div>
-                <div>
-                  <Label htmlFor="email">Email Address</Label>
-                  <Input id="email" type="email" placeholder="Enter email" className="mt-1" />
-                </div>
-                <div>
-                  <Label htmlFor="phone">Phone Number</Label>
-                  <Input id="phone" placeholder="Enter phone number" className="mt-1" />
-                </div>
-                <div>
-                  <Label htmlFor="message">Cover Letter / Message</Label>
-                  <Textarea id="message" placeholder="Tell us about yourself and your area of expertise..." className="mt-1 min-h-[100px]" />
-                </div>
-                <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground rounded-full py-6">
-                  <Send className="w-5 h-5 mr-2" />
-                  Submit
-                </Button>
-              </form>
-            </motion.div>
-          </div>
+              <Button className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-8 py-6 text-lg">
+                <ExternalLink className="w-5 h-5 mr-2" />
+                Apply via HR Portal
+              </Button>
+            </a>
+          </motion.div>
         </div>
       </section>
 
