@@ -125,6 +125,17 @@ const Contact = () => {
                     </div>
                     <div className="pt-4 border-t border-border">
                       <span className="inline-flex items-center px-4 py-2 rounded-full bg-red-50 text-red-600 font-medium text-sm">
+                        🚨 {location.emergency}
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Get In Touch */}
       <section className="py-20 bg-secondary">
         <div className="container mx-auto px-4 md:px-8">
