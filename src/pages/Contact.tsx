@@ -2,18 +2,7 @@ import { motion } from "framer-motion";
 import Header from "@/components/Header";
 import PageTransition from "@/components/PageTransition";
 import Footer from "@/components/Footer";
-import { MapPin, Phone, Mail, Clock, Send, MessageSquare } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { Label } from "@/components/ui/label";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
+import { MapPin, Phone, Mail, Clock, MessageSquare } from "lucide-react";
 import hospitalBuilding from "@/assets/hospital-building.jpg";
 
 const locations = [
