@@ -118,7 +118,7 @@ const Careers = () => {
               If you would like to be considered for future opportunities, please apply directly through our HR portal.
             </p>
             <a
-              href="https://apply.bizedgeapp.com/Cedarcare-hospital/175469876032/315"
+              href="https://apply.bizedgeapp.com/cedarcare-hospital/175469876032/315"
               target="_blank"
               rel="noopener noreferrer"
             >
