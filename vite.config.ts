@@ -19,3 +19,6 @@ export default defineConfig(({ mode }) => ({
     },
   },
 }));
+export default {
+  base: "/cedarcare-hospital-workspace/",
+}
